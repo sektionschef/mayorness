@@ -1,0 +1,70 @@
+@font-face {
+	font-family: ChopinScript;
+	src: url('ChopinScript.otf');
+	}
+
+@font-face {
+	font-family: urania_czech;
+	src: url('urania_czech_1-4.ttf');
+}
+
+body 	{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(background.png);
+	}
+
+#floater {
+	}
+
+
+#passe {
+	position: absolute;
+	top: 50% ;
+	left: 50%;
+	margin-top: -431px; 
+	margin-left: -343px;
+	height: 863px;
+	width: 686px;
+	} 
+
+#image {
+	}
+
+#mayor-image {
+	/* resize auf 666x666px */
+	width: 666px;
+	border-width: 10px 10px 10px 10px;
+	-moz-border-image: url(passepartout.png) 10 repeat;
+	-webkit-border-image: url(passepartout.png) 10 repeat;
+	-o-border-image: url(passepartout.png) 10 repeat;
+ 	border-image: url(passepartout.png) 10 repeat;
+	}
+
+#label {
+	background-image: url(label.png);
+	background-repeat:no-repeat;
+	position: relative;
+	width: 505px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	text-align: center;
+	}
+
+#label {
+	padding: 20px 0px 0px 20px;	
+	font-family: urania_czech;
+	line-height: 15px;
+	font-size: 18px;
+	color: #383535;
+	}
+
+#first_line {
+	font-family: ChopinScript;
+	font-size: 40px;
+	line-height: 50px;
+	}
+
+
